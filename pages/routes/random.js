@@ -1,4 +1,4 @@
-const quotesJSONArray = require("./quotesSource.json");
+const quotesJSONArray = require("./../../quotesSource.json");
 function getRandom(size) {
   return Math.floor(Math.random() * size);
 }
