@@ -6,7 +6,7 @@ const randomIndex = getRandom(quotesJSONArray.length);
 const randomQuote = quotesJSONArray[randomIndex];
 
 function random(request, response) {
-  response(randomQuote);
+  console.log(randomQuote);
 }
 
 export default random;
